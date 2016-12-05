@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+#project-content{
+    width: 100%;
+    display:block;
+    
+}
+
+ul {
+    list-style-type: none;
+    
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10em;
+    
+}
+
+li {
+    border: 1px solid #F4EEDD;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    transform: rotate(-45deg);
+    margin-right: 8em;
+}
+li:nth-child(3n){
+    display: flex;
+    margin-left: 13.5em;
+    margin-top: -5.5em;
+    margin-bottom: -5em;
+}
+li:nth-child(2n+2){
+    top:-5em;
+}
+li:nth-child(1) {
+    background-color: grey;
+}
+li:nth-child(2) {
+    background-color: blue;
+}
+li:nth-child(3) {
+    background-color: white;
+}
+li:nth-child(4) {
+    background-color: red;
+}
+li:nth-child(5) {
+    background-color: peachpuff;
+}
+li:nth-child(6) {
+    background-color: khaki;
+}
+li:nth-child(7) {
+    background-color: darkslategrey;
+}
+li:nth-child(8) {
+    background-color: deepskyblue;
+}
+li:nth-child(9) {
+    background-color: aqua;
+}
+li:nth-child(10) {
+    background-color: navajowhite;
+}
+li:nth-child(11) {
+    background-color: slateblue;
+}
+li:nth-child(12) {
+    background-color: plum;
+}
+li:nth-child(13) {
+    background-color: lightcoral;
+}
+.project-content{
+    background: url("http://ziggyv.github.io/flexbox/images/example6.jpg") no-repeat center center;
+    background-size: cover;
+    list-style: none;
+    height: 24%;
+    width: 100%;
+    position: relative;
+}
